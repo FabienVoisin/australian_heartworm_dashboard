@@ -29,11 +29,8 @@ postcodes.all <- postcodes.all[1:(length(dseq)),]
 rownames(postcodes.all) <- dseq
 
 #currentmax.df <- readRDS("data/currentmax.RDS")
-<<<<<<< HEAD
+
 currentmax.df <- postcodes.all[(nrow(postcodes.all)-1),]
-=======
-currentmax.df <- postcodes.all[nrow(postcodes.all),]
->>>>>>> 2f96fc9766b58782874e54fba3bba9c0f0cc991b
 
 #postcodes.all <- data.frame(dseq, readRDS("poa20152021max.RDS"))
 
